@@ -3612,7 +3612,7 @@ var ACPlatforms = {
             if (typeof amazingcarousel_previewmode != "undefined")
                 this.options.previewmode = amazingcarousel_previewmode;
             var _sanitizehtmlfolder = window.location.href.substr(0, window.location.href.lastIndexOf("/") + 1);
-            _sanitizehtmlfolder = DOMPurify.sanitize(_sanitizehtmlfolder);
+           
             this.options.htmlfolder = _sanitizehtmlfolder;
             if (this.options.skinsfoldername.length > 0)
                 this.options.skinsfolder = this.options.jsfolder + this.options.skinsfoldername + "/";
